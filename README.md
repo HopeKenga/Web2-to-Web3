@@ -1,5 +1,7 @@
-
+The postman collection can be imported through this link [Postman](https://www.postman.com/collections/71f2948fdc99c3ecf625).
 Technologies applied
+
+
 ```1.TypeScript```
 
 TypeScript has its pros and cons but the cons weigh much more. One of it's biggest advantages is it's ability to flag developmental bugs way before they cause major issues and time consumption something lightly reffered to as Optional Static Typing. Types can be added to variables, functions, properties, etc. This will help the compiler and show warnings about any potential errors in code, before an app is ever run. Types also help when using libraries and frameworks, as they let developers know exactly what type of data APIs expect. The key thing to remember about the type system is that it is optional. TypeScript does not force developers to add types they don’t want to add. However, as an app gets larger and more complex, types can provide some great advantages.
