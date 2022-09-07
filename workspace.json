@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "auth": "libs/auth",
+    "challengecode": "libs/challengecode",
+    "d-auth": "libs/d-auth",
+    "user": "libs/user",
+    "web2": "apps/web2",
+    "web3": "apps/web3"
+  }
+}
