@@ -11,7 +11,7 @@ When it comes to versioning all of our apps consume a single version of a librar
 This means there’s less risk of unexpected breaking changes, and no sprints wasted bumping library versions: it’s all done once, at the same time the library is modified. This could also help changes to the API of a library to be more robust, because it’s being consumed immediately, and not after some time has already passed and other teams have begun to implement the change
 
 ```3. Prisma```
-risma is the only fully type-safe ORM in the TypeScript ecosystem. The generated Prisma Client ensure typed query results even for partial queries and relations. You can learn more about this in the type-safety comparison with TypeORM. One is bale to create types directly from the schema.In a collaborative environment , Prisma schema provides an overview of the current state of the database that's easy to understand for everyone.
+Prisma is the only fully type-safe ORM in the TypeScript ecosystem. The generated Prisma Client ensure typed query results even for partial queries and relations. You can learn more about this in the type-safety comparison with TypeORM. One is bale to create types directly from the schema.In a collaborative environment , Prisma schema provides an overview of the current state of the database that's easy to understand for everyone.
 
 
 ```4. JWT & Passport```
@@ -24,7 +24,7 @@ My approach is normally to separate developemt into 3 sections:
 1 development - If developing module per module, I'll group them in branches
 Or is it about moving from version 1 to 2. When moving from version one to two. From having zero code to having. a complete product.
 For example( task 1 - Auth and Secret retrival) . Once each is done push to the branch. Mainly have three brances, development, staging and production. 
-Once a code is done in each stage and thoroughly reviewed it is then merged into the next branch. Then in staging , we thouroughly test then reviewe and move into production.
+Once a code is done in each stage and thoroughly reviewed it is then merged into the next branch. Then in staging , we thouroughly test then reviewe and move into production.I was not able to apply this in the task but this would be my approach on a daily basis.
 
 
 
