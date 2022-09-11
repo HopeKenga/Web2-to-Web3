@@ -49,7 +49,8 @@ export class DAuthController {
       });
     }
   }
-
+//get a challenge code generated after every 3 minutes of randomly generated string. If the string is not used within 3 minutes it can be used,
+// if 3 minutes have exceeded then you issue a new challenge code
   @UseGuards(AuthGuard('jwt'))
   @Get('secret')
   async getAllUsers() {

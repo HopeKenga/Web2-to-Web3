@@ -7,7 +7,7 @@ import { UserService } from './user.service';
 import { AuthService } from '@interview/auth';
 import { RegisterDTO } from '../dto/register.dto';
 
-@Controller('v1')
+@Controller('v1')// allows grouping of endpoints
 export class UserController {
   constructor(
     private userService: UserService,
@@ -42,8 +42,8 @@ export class UserController {
           message: 'Login successful',
           access_token: token,
           user: user
-        });
-    }
+        });// Task 1- if a username exists validate and return a token. If a username is not found create a new one
+    }// destructuring parameters
 
     // Validate user inputs
     const validation = this.userService.validateUserInputs(params, res);
@@ -60,3 +60,4 @@ export class UserController {
     return await this.userService.randomSecret();
   }
 }
+// Endpoints. 

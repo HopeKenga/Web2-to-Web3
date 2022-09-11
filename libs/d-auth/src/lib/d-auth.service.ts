@@ -10,7 +10,7 @@ export class DAuthService {
     private isValidSignature (signedMessage: string, signature: string, address: string) {
         const publicKey = decodeAddress(address);
         const hexPublicKey = u8aToHex(publicKey);
-
+//polkadot(verify if signature is valid)
         return signatureVerify(signedMessage, signature, hexPublicKey).isValid;
     }
 

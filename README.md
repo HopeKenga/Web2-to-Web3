@@ -1,5 +1,12 @@
 The postman collection can be imported through this link [Postman](https://www.postman.com/collections/71f2948fdc99c3ecf625).
+
+One question arose on how to switch authentication from polkadot.js to Etherium. Well , aftre some research I realised that this can be through wallet authentication such as Metamask for Etherium by simply changing the authentication route. 
+You can use this repo to learm  more about passwordwell validation and authentication. If you have any question or something to add on I'm more than happy to engage. Hope it helps 😇
+
+
 Technologies applied
+
+
 
 
 ```1.TypeScript```

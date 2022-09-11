@@ -24,3 +24,5 @@ export class LocalStrategy extends PassportStrategy(Strategy) {
         return user;
     }
 }
+//local strategy is used for login
+//jwt is for all other authentications(session based authentication through provision of an accessToken)
